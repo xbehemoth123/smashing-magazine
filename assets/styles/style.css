@@ -37,7 +37,7 @@
     }
     
         .menu-bar li a {
-        
+        font-size: 18px;
         text-decoration: none;
         color: #ffffff;
         text-align: center;
@@ -45,17 +45,20 @@
     }
     .menu-bar li {
         
-        height: 55px;
+        height: 45px;
         border-radius: 10px;
         width: auto;
         text-align: center;
-        padding: 0.9rem ;
+        padding: 0.5rem ;
+        margin-top: 5px;
+        margin: 5px 1.5rem 0;
 
     }
     .main-nav-more-item__button {
         border: 1px solid rgba(0,0,0,.05);
         color: white;
         margin-top: 0.5em;
+        margin-left: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -90,17 +93,18 @@
         gap: 2rem;
     }
     .logo {
-        width: 450px;
+        width: 320px;
         background: url(/assets/images/logo.png) no-repeat;
     }
 
 .menu-bar 
 {
-    justify-content: space-around;
+    justify-content: left;
     font-family: 'Elena', sans-serif;
     font-size: 22.114px;
     line-height: 25.4333px;                                             
     font-weight: bold;
+
 }
 
 .search 
@@ -108,7 +112,8 @@
     position: relative;
     gap: 0.7rem;
     max-width:300px;
-    height: 60px;
+    height: 40px;
+    margin-right: 3rem;
     border-radius: 11px;
     border: transparent;
     outline: transparent;
@@ -117,21 +122,23 @@
     font-size: 14px;
     justify-content: space-between;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    padding-right: 1rem;
 }
 
 .search-bar 
 {
     padding-bottom: 0.2rem;
     max-width: 300px;
-    height: 60px;
+    height: 40px;
     border: transparent;
     outline: transparent;
     border-radius: 11px;
     background-color: white;
 }
 .search-icon {
-    height: 40px;
-    max-width: 40px;
+    height: 35px;
+    max-width: 35px;
+    padding-left: 5px;
 }
 
 input[type="search"]
@@ -146,20 +153,19 @@ input[type="search"]
 
 {
     justify-content: space-between;
-    gap: 0;
     font-family: 'Elena', sans-serif;
     font-size: 10.114px;
     line-height: 25.4333px;                                             
     font-weight: bold;
     margin: 0;
-    gap: 1px;
 }
+
 .articles-bar {
     height: 50px;
     width: 100%;
     color: #ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-    padding: 0 30rem 0 5rem;
+    padding: 0 35rem 0 1.5rem;
     
 }
 
