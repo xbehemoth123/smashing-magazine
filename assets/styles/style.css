@@ -38,6 +38,7 @@
     
         .menu-bar li a {
         font-size: 18px;
+        font-weight: 600;
         text-decoration: none;
         color: #ffffff;
         text-align: center;
@@ -76,12 +77,13 @@
     font-family: 'Elena', sans-serif;
     font-size: 20.114px;
     line-height: 25.4333px;                                             
-    font-weight: bold;
-     
+    font-weight: bold; 
     }
     .menu-text--lg--close {
         background: url(/assets/images/cat.png) no-repeat;
+        background-color: transparent;
     }
+
     ul { 
         list-style: none outside;
     }
@@ -210,4 +212,38 @@ padding-top: 0.3rem;
 }
 #jump-articles:hover{
     outline: transparent;
+}
+
+.container-left 
+{
+    width: 65%;
+
+}
+.container-right {
+    position: relative;
+    width: auto;
+
+}
+.hero {
+    padding: 0 22%;
+}
+.hero a{
+    color: #e0574b;
+    font-size: 13px;
+    font-weight: bold; 
+    
+}
+
+.hero p{
+    font-size: 12px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+    color: rgba(77, 76, 76, 0.795);
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.avatar {
+background: url(/assets/images/t.png) no-repeat;
+height: 200px;
+width: 200px;
+
 }
